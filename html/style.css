@@ -1,0 +1,136 @@
+* {
+   font-family: "Montserrat", sans-serif;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+img {
+   display: inline-block;
+   margin-left: 125px;
+   width: 558px;
+   height: 500px;
+}
+
+section {
+   margin-left: 86px;
+   display: inline-block
+}
+
+#box-text {
+   display: inline-block;
+}
+
+header {
+   margin: 44px 0 144px 76px;
+}
+
+.links {
+   font-size: 24px;
+   font-weight: 600;
+   line-height: 50px;
+   color: #989D9C;
+   cursor: pointer;
+   margin-right: 40px;
+   text-transform: uppercase;
+}
+
+#button-1 {
+   color: white;
+   line-height: 29px;
+   font-size: 24px;
+   font-weight: 550;
+   background: #665AE1;
+   border-radius: 50px;
+   width: 130px;
+   height: 41px;
+   text-transform: uppercase;
+   cursor: pointer;
+   border: none;
+}
+
+h1 {
+   font-weight: 900;
+   font-size: 100px;
+   line-height: 122px;
+   color: #515151
+}
+
+h2 {
+   font-weight: 500;
+   font-size: 58px;
+   line-height: 71px;
+   color: #515151;
+}
+
+p {
+   margin-top: 32px;
+   margin-bottom: 65px;
+   color: #848484;
+   font-weight: 400px;
+   font-size: 24px;
+   line-height: 29px;
+   width: 515px;
+}
+
+.button-main {
+   margin-top: 60px;
+   cursor: pointer;
+   background: #adff00;
+   border-radius: 30px;
+   width: 239px;
+   height: 64px;
+   border: none;
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 38px;
+   transition: 0.4s;
+}
+
+button:hover {
+   opacity: 70%;
+}
+
+.button-main:active {
+   background: #fbff70;
+}
+
+@media screen and (max-width:730px) {
+   header {
+      display: none;
+   }
+
+   section {
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      display: block;
+   }
+
+   img {
+      position: static;
+      display: block;
+      width: 354px;
+      height: 317px;
+      margin: 150px auto 70px;
+      padding: 0;
+   }
+
+   h1 {
+      font-size: 50px;
+      line-height: 100%;
+      height: 52px;
+      margin: 0 auto;
+   }
+
+   p {
+      display: none;
+   }
+
+   h2 {
+      font-size: 30px;
+      height: 37px;
+      width: 0 auto;
+   }
+
+}
